@@ -14,19 +14,6 @@ const productos = [
     },
 
     {
-        id: 2,
-        title: "Placa De Video MSI rtx 3050",
-        description: "La última versión de la icónica serie GAMING de MSI ofrece una vez más el rendimiento, la eficiencia con bajo nivel de ruido y la estética que los jugadores incondicionales reconocen y confían. Ahora usted también puede disfrutar de todos sus juegos favoritos con una potente tarjeta gráfica que se mantiene fría y silenciosa. Justo como te gusta.",
-        stock: 7,
-        type: "placa de video",
-        imageProduct: {
-            firtsImage: "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3050-8gb-msi-gaming-x-0.jpg",
-            secondImage: "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/video-geforce-rtx-3050-8gb-msi-gaming-x-2.jpg"
-        },
-        price: 99000,
-    },
-
-    {
         id: 3,
         title: "Placa De Video Nvidia Asus TUF RTX 3080",
         description: "Nvidia es el fabricante líder de placas de video; su calidad asegura una experiencia positiva en el desarrollo del motor gráfico de tu computadora. Además, sus procesadores usan tecnología de punta para que puedas disfrutar de un producto veloz y duradero",
