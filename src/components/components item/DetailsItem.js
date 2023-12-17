@@ -8,6 +8,10 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import MoonLoader from "react-spinners/ClipLoader";
 
+/*borrar esto */
+import ButtonDetalles2 from "./ButtonDetalles2";
+
+
 const DetailsItem = () => {
     const [ datos, setDatos ] = useState([]);
     const { idItem } = useParams();
@@ -42,10 +46,11 @@ const DetailsItem = () => {
                                 />
                                 
                             <div className="buttons">
-                        
-                                    <ButtonDetalles 
+
+                                <ButtonDetalles2></ButtonDetalles2>
+                                    {/* <ButtonDetalles 
                                         txt="Agregar al carrito"
-                                    />
+                                    />  */}
                             </div>
                         </div>
                     </>
